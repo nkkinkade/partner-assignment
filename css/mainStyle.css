@@ -22,3 +22,11 @@ p {
 footer h2 {
     background: #00Bcff;
 }
+
+header {
+    text-align: center;
+}
+
+main img {
+    width: 350px;
+}

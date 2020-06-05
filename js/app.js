@@ -11,17 +11,18 @@ function firstTest() {
     var greeting;
 
     if (hourNow > 18) {
-        greeting = 'Good evening, ' + userName + '!';
+        greeting = 'Good evening, ' + userName + '!' + ' What is for dinner?';
     } else if (hourNow > 12) {
-        greeting = 'Good afternoon, ' + userName + '!';
+        greeting = 'Good afternoon, ' + userName + '!' + ' Have you eaten lunch yet?';
+    } else if (hourNow > 8) {
+        greeting = 'Good morning, ' + userName + '!' + ' It is a lovely day today!';
     } else if (hourNow > 0) {
-        greeting = 'Good morning, ' + userName + '!';
+        greeting = 'You are up kind of early, ' + userName + '!';
     } else {
         greeting = 'Welcome, ' + userName + '!'
     }
-
-    document.write('<h3>' + greeting + '</h3>');   
+    document.getElementById('greeting').innerHTML = greeting;
 }
 
  firstTest();
-    
+

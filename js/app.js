@@ -33,7 +33,7 @@ var getMusic = function() {
     } else if (music === 'rap') {
       item = '<img src="images/rap.jpg">';
     } else if (music === 'country') {
-      item = '<img src="country.jpg">';
+      item = '<img src="images/country.jpg">';
     } else if (music === 'pop') {
       item = '<img src="images/pop.png">';
     }
